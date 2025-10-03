@@ -1,7 +1,9 @@
-```markdown
-# RAG Legal Documents Pipeline
 
-This repository implements a **Retrieval-Augmented Generation (RAG) pipeline** for extracting and analyzing information from legal documents. The project demonstrates data cleaning, exploratory analysis, chunking, embedding, building a vector database, setting up a RAG QA chain, and evaluating performance with legal benchmarks.
+# Legal Documents Analysis Chatbot - Using RAG
+
+This repository showcases a **Retrieval-Augmented Generation (RAG) powered chatbot** designed specifically for analyzing and answering questions from legal documents. It enables users to interactively query a corpus of legal agreements, with the chatbot retrieving and generating context-aware, accurate responses based on the underlying documents.
+
+The project encompasses data cleaning, exploratory analysis, efficient document chunking, vector embedding, database creation using ChromaDB, and the full pipeline for retrieval-augmented Q&A. Extensive evaluation is performed with relevant legal benchmarks to ensure high answer relevancy and faithfulness.
 
 ---
 
@@ -46,6 +48,23 @@ Below is a summary table of the stepwise process followed in this repository:
 
 ---
 
+## 📊 Evaluation Results
+
+| **Metric**          | **Score**  | **Sticker**    |
+|---------------------|------------|---------------|
+| ROUGE-L             | 0.2217     | 🟠 Moderate    |
+| BLEU                | 0.0394     | 🟠 Low         |
+| Context Precision   | 0.5209     | 🟡 Medium      |
+| Context Recall      | 0.6350     | 🟡 Medium      |
+| Faithfulness        | 0.8637     | 🟢 High        |
+| Answer Relevancy    | 0.9085     | 🟢 High        |
+
+- 🟢 **High**: Indicates excellent results.
+- 🟡 **Medium**: Indicates satisfactory results but improvement possible.
+- 🟠 **Low/Moderate**: Indicates areas for further optimization.
+
+---
+
 ## ✨ Key Insights
 
 - **Semantic fidelity**: RAG pipeline produces contextually accurate answers.
@@ -54,19 +73,8 @@ Below is a summary table of the stepwise process followed in this repository:
 
 ---
 
-## 💡 Getting Started
-
-1. Prepare your environment (see `requirements.txt`).
-2. Run the notebook stepwise to process data and build the pipeline.
-3. Evaluate using sample benchmarks.
-
----
-
 ## 📞 Contact
 
 Project by Rohit Vashishth, Saurabh Singh, Ankita Mhargude, Rakesh Kumar Sahoo.
 
-```
-This Markdown README is formatted for GitHub and highlights the summary pipeline table as requested. You can copy this as `README.md` for your repository!
 
-[1](https://www.perplexity.ai/finance/NVDA)
