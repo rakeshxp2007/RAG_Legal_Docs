@@ -1,3 +1,4 @@
+<img width="512" height="512" alt="RAG_Chatbot_Icon" src="https://github.com/user-attachments/assets/790dc642-1a00-415a-8820-3ebb37014cfb" />
 
 # Legal Documents Analysis Chatbot - Using RAG
 
